@@ -1,7 +1,6 @@
 name: Run Insert Time Slots
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: '25 06 * * *'
 
