@@ -2,7 +2,7 @@ name: Run Insert Time Slots
 
 on:
   schedule:
-    - cron: '04 05 * * *'
+    - cron: '06 05 * * *'
 
 jobs:
   run-script:
