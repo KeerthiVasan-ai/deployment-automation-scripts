@@ -3,7 +3,7 @@ name: Run Insert Time Slots
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 06 * * *'
+    - cron: '30 07 * * *'
 
 jobs:
   run-script:
@@ -26,4 +26,4 @@ jobs:
 
       - name: Run Insert Time Slots script
         working-directory: ./SmartClassAutomation
-        run: python insert_slot.py
+        run: python insert_slots.py
